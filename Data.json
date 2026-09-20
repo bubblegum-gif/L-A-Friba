@@ -1,0 +1,395 @@
+{
+  "static_verified": {
+    "total_rounds": 682,
+    "udisc": 624,
+    "metrix": 58,
+    "unique_players": 72,
+    "hours": 821,
+    "steps": 2000002,
+    "udisc_2026": 210,
+    "udisc_lifetime_with_2026": 624,
+    "total_rounds_with_2026": 682,
+    "hours_with_2026": 821,
+    "steps_thousands_2026": 634000,
+    "parent_course": "43119",
+    "all_layouts": [
+      "44010",
+      "44763",
+      "43119"
+    ],
+    "metrix_breakdown": {
+      "44010": 30,
+      "44763": 28,
+      "total": 58,
+      "source": "Parent 43119 + 44010 + 44763 LIVE - KAIKKI harjoituskierrokset Top results rivit",
+      "course_list": [
+        "44010",
+        "44763",
+        "43119"
+      ]
+    }
+  },
+  "udisc_leaderboard": [
+    {
+      "rank": 1,
+      "username": "@kantanen8",
+      "score": 35,
+      "date": "4.7.2026"
+    },
+    {
+      "rank": 2,
+      "username": "@valkoparta",
+      "score": 36,
+      "date": "6.7.2026"
+    },
+    {
+      "rank": 3,
+      "username": "@mattiasss",
+      "score": 36,
+      "date": "19.8.2026"
+    },
+    {
+      "rank": 4,
+      "username": "@dashyy",
+      "score": 38,
+      "date": "13.9.2025"
+    },
+    {
+      "rank": 5,
+      "username": "@eero_heittaja",
+      "score": 39,
+      "date": "12.9.2025"
+    },
+    {
+      "rank": 6,
+      "username": "@discgolfari91",
+      "score": 40,
+      "date": "10.9.2025"
+    },
+    {
+      "rank": 7,
+      "username": "@frisbee_fi",
+      "score": 40,
+      "date": "8.9.2025"
+    },
+    {
+      "rank": 8,
+      "username": "@alajarvi_pro",
+      "score": 41,
+      "date": "5.9.2025"
+    },
+    {
+      "rank": 9,
+      "username": "@kiekko_mies",
+      "score": 41,
+      "date": "3.9.2025"
+    },
+    {
+      "rank": 10,
+      "username": "@luoma_aho_fan",
+      "score": 42,
+      "date": "1.9.2025"
+    }
+  ],
+  "courses": {
+    "44010": {
+      "top_results": [
+        {
+          "rank": 1,
+          "name": "Toni Luoma-aho",
+          "plus_minus": "+1",
+          "total": 42,
+          "date": "29.4.2026"
+        },
+        {
+          "rank": 2,
+          "name": "Eino Vistiaho",
+          "plus_minus": "+2",
+          "total": 43,
+          "date": "29.4.2026"
+        },
+        {
+          "rank": 3,
+          "name": "Benjamin Turja",
+          "plus_minus": "+3",
+          "total": 44,
+          "date": "5.10.2025"
+        },
+        {
+          "rank": 4,
+          "name": "Toni Luoma-aho",
+          "plus_minus": "+4",
+          "total": 45,
+          "date": "3.4.2026"
+        },
+        {
+          "rank": 5,
+          "name": "Jari Vistiaho",
+          "plus_minus": "+5",
+          "total": 46,
+          "date": "29.4.2026"
+        }
+      ]
+    },
+    "44763": {
+      "top_results": [
+        {
+          "rank": 1,
+          "name": "Timo Alalantela",
+          "plus_minus": "0",
+          "total": 82,
+          "date": "4.10.2025"
+        },
+        {
+          "rank": 2,
+          "name": "Aapo Penttilä",
+          "plus_minus": "+1",
+          "total": 83,
+          "date": "19.10.2025"
+        },
+        {
+          "rank": 3,
+          "name": "Eevert Väkeväinen",
+          "plus_minus": "+3",
+          "total": 85,
+          "date": "18.4.2026"
+        },
+        {
+          "rank": 4,
+          "name": "Daniel Turja",
+          "plus_minus": "+5",
+          "total": 87,
+          "date": "5.9.2025"
+        },
+        {
+          "rank": 5,
+          "name": "Eero Tuohimaa",
+          "plus_minus": "+6",
+          "total": 88,
+          "date": "19.10.2025"
+        }
+      ]
+    }
+  },
+  "hio": [
+    {
+      "hole": 4,
+      "hole_name": "Julle Special",
+      "player": "Benjamin Turja",
+      "date": "2025",
+      "source": "Metrix 44010",
+      "course_id": "44010"
+    },
+    {
+      "hole": 4,
+      "hole_name": "Julle Special",
+      "player": "Julius \"Julle Special\" Luoma-aho",
+      "date": "2025",
+      "source": "Metrix 44010",
+      "course_id": "44010"
+    },
+    {
+      "hole": 8,
+      "hole_name": "Kepposen Kirous",
+      "player": "Pentti Pitkäranta",
+      "date": "2025",
+      "source": "Metrix 44010",
+      "course_id": "44010"
+    }
+  ],
+  "hio_updated": "2026-09-17T23:45:43.182047",
+  "udisc_monthly_2026": {
+    "maaliskuu_2026": {
+      "rounds": 20,
+      "steps_thousands": 65,
+      "fairways": 152,
+      "throws": 629,
+      "unique": 6,
+      "new": 0
+    },
+    "huhtikuu_2026": {
+      "rounds": 29,
+      "steps_thousands": 92,
+      "fairways": 330,
+      "throws": 1350,
+      "unique": 12,
+      "new": 3
+    },
+    "toukokuu_2026": {
+      "rounds": 36,
+      "steps_thousands": 98,
+      "fairways": 252,
+      "throws": 1092,
+      "unique": 9,
+      "new": 0
+    },
+    "kesakuu_2026": {
+      "rounds": 31,
+      "steps_thousands": 97,
+      "fairways": 317,
+      "throws": 1232,
+      "unique": 11,
+      "new": 1
+    },
+    "heinakuu_2026": {
+      "rounds": 60,
+      "steps_thousands": 177,
+      "fairways": 587,
+      "throws": 2519,
+      "unique": 24,
+      "new": 2
+    },
+    "elokuu_2026": {
+      "rounds": 34,
+      "steps_thousands": 105,
+      "fairways": 378,
+      "throws": 1448,
+      "unique": 13,
+      "new": 1
+    }
+  },
+  "udisc_2026_summary": {
+    "rounds": 210,
+    "steps": 634000,
+    "fairways": 2016,
+    "throws": 8270,
+    "new_players": 7,
+    "period": "2026-03 to 2026-08"
+  },
+  "udisc_impact": {
+    "course_length_km": 2.5,
+    "minutes_per_round": 72,
+    "steps_per_round": 2963,
+    "rounds_2025": 203,
+    "distance_km_2025": 464,
+    "hours_2025": 296,
+    "steps_2025": 649726,
+    "players_2025": 30,
+    "rating": 3.7,
+    "ratings_count": 18,
+    "upkeep": 4.3,
+    "shot_variety": 4.0
+  },
+  "udisc_layouts": {
+    "143835": {
+      "layout_id": "143835",
+      "name": "PÄÄ → Pitkä",
+      "holes": [
+        {
+          "hole": 1,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 410,
+          "dist_m": 125,
+          "par": 4
+        },
+        {
+          "hole": 2,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 338,
+          "dist_m": 103,
+          "par": 3
+        },
+        {
+          "hole": 3,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 236,
+          "dist_m": 72,
+          "par": 3
+        },
+        {
+          "hole": 4,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 189,
+          "dist_m": 58,
+          "par": 3
+        },
+        {
+          "hole": 5,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 308,
+          "dist_m": 94,
+          "par": 3
+        },
+        {
+          "hole": 6,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 315,
+          "dist_m": 96,
+          "par": 3
+        },
+        {
+          "hole": 7,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 336,
+          "dist_m": 102,
+          "par": 3
+        },
+        {
+          "hole": 8,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 264,
+          "dist_m": 80,
+          "par": 3
+        },
+        {
+          "hole": 9,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 381,
+          "dist_m": 116,
+          "par": 4
+        },
+        {
+          "hole": 10,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 279,
+          "dist_m": 85,
+          "par": 3
+        },
+        {
+          "hole": 11,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 646,
+          "dist_m": 197,
+          "par": 5
+        },
+        {
+          "hole": 12,
+          "tee": "PÄÄ",
+          "target": "Pitkä",
+          "dist_ft": 394,
+          "dist_m": 120,
+          "par": 4
+        }
+      ],
+      "total_ft": 4096,
+      "total_m": 1248,
+      "total_par": 41,
+      "source": "https://udisc.com/courses/luoma-ahon-frisbeegolfrata-YNEx/v2/layouts/143835"
+    }
+  },
+  "automation_status": {
+    "TULOSKIRJATTUJEN KIERROSTEN KOKONAISMÄÄRÄ": "AUTO - 44010 (30) + 44763 (28) + parent 43119 uudet = 58 + UDisc 624 = 682",
+    "ERI PELAAJIA": "AUTO - 72 (65 + 7 uutta 2026)",
+    "PELIAIKA": "AUTO - 821h (624*1.2h + 58*1.25h)",
+    "ASKELEET": "AUTO - 2000002 (624*2963 + 58*2605)",
+    "Väyläopaste 5 parasta 44010": "AUTO - LIVE Top results",
+    "Väyläopaste 2 kierrosta 5 parasta 44763": "AUTO - LIVE Top results",
+    "Hole in one": "AUTO - scan Metrix tulos=1",
+    "UDisc Leaderboard": "AUTO - TOP10 + CSV AUTO GROWTH",
+    "UDisc layout 143835": "AUTO - LIVE 1248m Par41",
+    "Impact Report 2024->2026": "AUTO - udisc_monthly_2026",
+    "UDisc CSV": "AUTO - kun viet udisc_export.csv kaikki kasvaa"
+  },
+  "updated": "2026-09-17T23:45:43.182061"
+}

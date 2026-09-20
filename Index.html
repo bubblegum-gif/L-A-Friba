@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Luoma-ahon Frisbeegolfrata - LIVE</title>
+<style>
+body{margin:0;background:#eef2f7;font-family:Inter,system-ui,sans-serif;color:#111827}
+.header{background:#0a2342;color:white;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.logo{width:56px;height:56px;border-radius:50%;border:3px solid white;background:white;object-fit:cover}
+.badge{background:#16a34a;color:white;padding:4px 10px;border-radius:999px;font-size:11px;font-weight:800}
+.card{background:white;border-radius:12px;border:1px solid #e2e8f0;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.youtube{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;background:#000}
+.youtube img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}
+.play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:72px;height:48px;background:#ff0000;border-radius:12px;display:flex;align-items:center;justify-content:center;color:white;font-size:28px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(min-width:640px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1024px){.grid{grid-template-columns:repeat(5,1fr)}}
+.layout{max-width:1120px;margin:0 auto;padding:20px}
+.pill-metrix{background:#ff6600;color:white;padding:4px 14px;border-radius:999px;font-size:11px;font-weight:800;text-decoration:none;display:inline-block}
+.pill-udisc{background:#ff6600;color:white;padding:4px 12px;border-radius:999px;font-size:11px;font-weight:800;display:inline-flex;align-items:center;gap:6px;text-decoration:none}
+.dot{width:8px;height:8px;background:#22c55e;border-radius:50%;display:inline-block}
+.live-dot{width:8px;height:8px;background:#22c55e;border-radius:50%;display:inline-block;box-shadow:0 0 0 0 rgba(34,197,94,0.7);animation:live-pulse 2s infinite}
+@keyframes live-pulse{0%{box-shadow:0 0 0 0 rgba(34,197,94,0.7)}70%{box-shadow:0 0 0 6px rgba(34,197,94,0)}100%{box-shadow:0 0 0 0 rgba(34,197,94,0)}}@keyframes kilpailu-pulse{0%{transform:scale(1)}50%{transform:scale(1.03)}100%{transform:scale(1)}}
+.impact{background:#0a2342;color:white;border-radius:16px;padding:20px;margin-top:16px}
+.impact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:768px){.impact-grid{grid-template-columns:repeat(4,1fr)}}
+.impact-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:16px}
+</style>
+</head>
+<body>
+<div class="header">
+<div style="display:flex;align-items:center;gap:12px">
+<img class="logo" src="logo-l-a-friba.jpg" alt="L-A FRIBA">
+<div><div style="font-weight:900;font-size:22px">Luoma-ahon Frisbeegolfrata <span class="badge">LIVE TILASTOSEURANTA</span></div></div>
+</div>
+<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+<a id="seuraava-kilpailu-box" href="https://discgolfmetrix.com/3718481" target="_blank" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#facc15 0%,#fb923c 100%);color:#000;padding:6px 14px;border-radius:999px;font-weight:900;font-size:12px;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.15);border:2px solid #fff;animation:kilpailu-pulse 2s infinite">
+<span style="background:#000;color:#facc15;padding:2px 6px;border-radius:999px;font-size:10px" id="seuraava-kilpailu-live">LIVE</span>
+<span id="seuraava-kilpailu-text">Seuraava kilpailu →</span>
+</a>
+<a href="https://photos.google.com/share/AF1QipNfClPGrg-CMqrUn9w9qeso7oFvZzjTO-kmUuy3NWf9o06lgy1TohSBSykLkaW-vw?pli=1&key=WlJtRWFwb3ktSHEwbWFXeW0xeENIeXJPZWN6RnpB" target="_blank" rel="noopener" title="Löytökiekot - kuvat" style="display:inline-flex;align-items:center;justify-content:center"><img src="loytokiekot-icon.png" alt="LÖYTÖKIEKOT" style="height:30px;border-radius:6px;display:block"></a>
+<a href="https://photos.google.com/share/AF1QipPwBhzcZ3Nf0BEpLICSkhQSFIuTA1VO3i1W_u0l_4oY_ZfytXxa21wqxIx4RqRepA?key=YWl5VW81RVpEZkxqQ0pVQXg2RjdKZ05uRGRILWdn" target="_blank" rel="noopener" title="Parkdly - kuvat" style="display:inline-flex;align-items:center;justify-content:center"><img src="parkdly-logo.png" alt="Parkdly" style="height:30px;border-radius:6px;display:block"></a>
+<a href="https://photos.google.com/share/AF1QipMlPCtWvfCrBkzBR-Sr-W7AG-f8ZBVQ0omErEqR-ZXVPqF-2uRionKk12oTV4R_Lw?key=VzR6XzJiU2dFa0RldW5NcHgxUW5weTVEbk1pYUdB" target="_blank" rel="noopener" title="Rata kuvat" style="display:inline-flex;align-items:center;justify-content:center"><img src="rata-kuvat-icon.jpg" alt="Rata kuvat" style="height:30px;width:40px;object-fit:cover;border-radius:6px;display:block"></a>
+<a href="https://tinyurl.com/39ksa8ze" target="_blank" title="Instagram"><img src="instagram-logo.png" alt="Instagram" style="height:28px;border-radius:8px;background:white;padding:2px"></a>
+<a href="https://frisbeegolfradat.fi/rata/luoma-ahon-frisbeegolfrata/" target="_blank" title="Frisbeegolfradat.fi"><img src="fgr-logo.png" alt="fgr" style="height:28px;border-radius:6px;background:white;padding:2px"></a>
+<span style="background:#16a34a;padding:4px 8px;border-radius:999px;font-size:10px;font-weight:800">UDISC ✓</span><span style="background:#16a34a;padding:4px 8px;border-radius:999px;font-size:10px;font-weight:800">METRIX ✓</span>
+</div>
+</div>
+<div class="layout">
+<div class="grid">
+<div class="card"><div style="font-size:9.5px;font-weight:700;color:#64748b;display:flex;align-items:center;gap:4px;line-height:1.2">TULOSKIRJATTUJEN KIERROSTEN KOKONAISMÄÄRÄ <span class="live-dot"></span></div><div id="live-total" style="font-size:28px;font-weight:900;letter-spacing:-0.5px">473</div><div style="font-size:11px;color:#64748b">yhteensä</div></div>
+<div class="card"><div style="font-size:9.5px;font-weight:700;color:#64748b;display:flex;align-items:center;gap:4px;line-height:1.2">ERI PELAAJIA <span class="live-dot"></span></div><div id="live-players" style="font-size:28px;font-weight:900;letter-spacing:-0.5px">65</div><div style="font-size:11px;color:#64748b">yhteensä</div></div>
+<div class="card"><div style="font-size:9.5px;font-weight:700;color:#64748b;display:flex;align-items:center;gap:4px;line-height:1.2">PELIAIKA <span class="live-dot"></span></div><div id="live-hours" style="font-size:34px;font-weight:900;color:#2563eb">589h</div><div style="font-size:11px;color:#64748b">Live</div></div>
+<div class="card"><div style="font-size:9.5px;font-weight:700;color:#64748b;display:flex;align-items:center;gap:4px;line-height:1.2">ASKELEET <span class="live-dot"></span></div><div id="live-steps" style="font-size:28px;font-weight:900;letter-spacing:-0.5px">1.2 Miljoonaa</div><div style="font-size:11px;color:#64748b">yhteensä radalla</div></div>
+<div class="card"><div style="font-size:9.5px;font-weight:700;color:#64748b;display:flex;align-items:center;gap:4px;line-height:1.2">KILOMETRIT <span class="live-dot"></span></div><div id="live-km" style="font-size:28px;font-weight:900;letter-spacing:-0.5px;color:#059669">0 km</div><div style="font-size:11px;color:#64748b">kävelty yhteensä</div></div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 300px;gap:16px;margin-top:16px">
+<div>
+<div class="card"><div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap"><b>Väyläopaste</b>
+<a href="https://discgolfmetrix.com/course/44010" target="_blank" class="pill-metrix">METRIX</a>
+<a href="https://udisc.com/courses/luoma-ahon-frisbeegolfrata-YNEx/layouts/143835/caddie-book" target="_blank" class="pill-udisc">UDISC <span class="dot"></span></a>
+</div>
+<div style="color:black;font-size:13px;line-height:1.5;margin-top:12px">Kalliopohjaisessa mäkisessä mäntymetsä maastossa.<br>Tekninen / vaativa mutta helposti lähestyttävä.<br>Pienellä alueella jossa olemattomat siirtymät.<br>Loistava kunto metsäradaksi.<br>Väylien pituudet 57 - 197m<br>OB:t ja Mandot haastavat pelaajan päätöksentekoa.<br>Tekniikka, kiekko kontrolli ja heittovalinnat avainasemassa onnistumiseen.<br>Lähes päivittäinen ylläpito ja kehitys keväästä alkaen</div>
+
+<div id="saa-widget" style="margin-top:12px;background:linear-gradient(135deg,#0a2342 0%,#1e40af 100%);border-radius:12px;padding:12px;color:white;border:1px solid rgba(255,255,255,.1)">
+<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px">
+<b style="font-size:13px">🌤️ Sää - Luoma-aho <span style="font-size:10px;background:#22c55e;color:white;padding:2px 6px;border-radius:999px;margin-left:6px">AUTO 5min</span></b>
+<a href="https://www.foreca.fi/Finland/Alajarvi/Luoma-aho/details/20260920" target="_blank" rel="noopener" style="font-size:10px;color:#93c5fd;text-decoration:none;background:rgba(255,255,255,.1);padding:2px 8px;border-radius:999px">Foreca.fi →</a>
+</div>
+<div id="saa-content" style="margin-top:10px;font-size:12px;line-height:1.4">Ladataan säätietoja...</div>
+<div style="margin-top:8px;font-size:10px;color:#93c5fd;opacity:.8">Päivittyy 5min välein • Foreca + Open-Meteo</div>
+</div>
+
+<div style="margin-top:12px;background:#f8fafc;border-radius:12px;padding:12px"><b>5 parasta tulosta - Metrix 44010 <span style="font-size:10px;color:#16a34a">AUTO</span></b><br><table style="width:100%;font-size:12px;margin-top:6px"><tbody id="top5-44010"><tr><td>1. Toni Luoma-aho</td><td>+1 (42)</td><td>29.4.2026</td></tr><tr><td>2. Eino Vistiaho</td><td>+2 (43)</td><td>29.4.2026</td></tr><tr><td>3. Benjamin Turja</td><td>+3 (44)</td><td>5.10.2025</td></tr><tr><td>4. Toni Luoma-aho</td><td>+4 (45)</td><td>3.4.2026</td></tr><tr><td>5. Jari Vistiaho</td><td>+5 (46)</td><td>29.4.2026</td></tr></tbody></table></div>
+</div>
+<div class="card" style="margin-top:12px"><div style="display:flex;align-items:center;gap:8px"><b>Väyläopaste 2 kierrosta</b>
+<a href="https://discgolfmetrix.com/course/44763" target="_blank" class="pill-metrix">METRIX</a>
+</div>
+<div style="margin-top:12px;background:#f8fafc;border-radius:12px;padding:12px"><b>5 parasta - Metrix 44763 <span style="font-size:10px;color:#16a34a">AUTO</span></b><br><table style="width:100%;font-size:12px;margin-top:6px"><tbody id="top5-44763"><tr><td>1. Timo Alalantela</td><td>0 (82)</td><td>4.10.2025</td></tr><tr><td>2. Aapo Penttilä</td><td>+1 (83)</td><td>19.10.2025</td></tr><tr><td>3. Eevert Väkeväinen</td><td>+3 (85)</td><td>18.4.2026</td></tr><tr><td>4. Daniel Turja</td><td>+5 (87)</td><td>5.9.2025</td></tr><tr><td>5. Eero Tuohimaa</td><td>+6 (88)</td><td>19.10.2025</td></tr></tbody></table></div>
+</div>
+</div>
+<div>
+<div class="card"><div style="display:flex;justify-content:space-between;align-items:center"><b>🏆 UDisc Leaderboard</b><span style="font-size:10px;color:#16a34a;font-weight:800;background:#dcfce7;padding:2px 8px;border-radius:999px">LIVE</span></div><div style="font-size:11px;color:#64748b;margin:6px 0">Parhaat tulokset layout 143835 <span style="display:inline-flex;align-items:center;gap:4px">AUTO <span class="live-dot"></span></span></div><table style="width:100%;font-size:12px;border-collapse:collapse"><thead><tr style="color:#64748b;font-size:10px;text-align:left"><th>#</th><th>Pelaaja</th><th>Tulos</th><th>Pvm</th></tr></thead><tbody id="udisc-leaderboard"><tr><td>1</td><td>@kantanen8</td><td>35</td><td>4.7.2026</td></tr><tr><td>2</td><td>@valkoparta</td><td>36</td><td>6.7.2026</td></tr><tr><td>3</td><td>@mattiasss</td><td>36</td><td>19.8.2026</td></tr><tr><td>4</td><td>@dashyy</td><td>38</td><td>13.9.2025</td></tr><tr><td>5</td><td>@eero_heittaja</td><td>39</td><td>12.9.2025</td></tr><tr><td>6</td><td>@discgolfari91</td><td>40</td><td>10.9.2025</td></tr><tr><td>7</td><td>@frisbee_fi</td><td>40</td><td>8.9.2025</td></tr><tr><td>8</td><td>@alajarvi_pro</td><td>41</td><td>5.9.2025</td></tr><tr><td>9</td><td>@kiekko_mies</td><td>41</td><td>3.9.2025</td></tr><tr><td>10</td><td>@luoma_aho_fan</td><td>42</td><td>1.9.2025</td></tr></tbody></table><div style="font-size:10px;color:#64748b;margin-top:8px">AUTO päivittyvä • vain UDisc • layout 143835</div></div>
+<div class="card" style="margin-top:12px"><b>🏆 Hole in one</b><span style="font-size:10px;color:#16a34a;font-weight:800;background:#dcfce7;padding:2px 8px;border-radius:999px;margin-left:8px">AUTO</span><br><br><div id="hio-list"><b>Väylä 4 "Julle Special"</b><br>1. Benjamin Turja<br>2. Julius "Julle Special" Luoma-aho<br><br><b>Väylä 8 Kepposen Kirous</b><br>1. Pentti Pitkäranta</div><br><br><div style="font-size:10px;color:#64748b">L-A FRIBA • 3 holaria kirjattu</div></div>
+</div>
+</div>
+<div class="impact"><div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><h3 style="margin:0;font-size:18px;font-weight:900">Impact Report 2024 → 2026</h3><span style="padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.1);font-size:11px;font-weight:700">L-A FRIBA RY</span></div><div class="impact-grid" style="margin-top:20px"><div class="impact-card"><div style="font-size:11px;font-weight:700;letter-spacing:1px;color:rgba(255,255,255,.6)">KIERROKSET</div><div style="margin-top:8px;display:flex;align-items:baseline;gap:8px"><span style="font-size:13px;color:rgba(255,255,255,.6);text-decoration:line-through">128</span><span style="font-size:13px;color:rgba(255,255,255,.6)">→</span><span id="impact-kierrokset" style="font-size:24px;font-weight:900">473</span></div><div style="margin-top:8px;display:inline-block;padding:2px 8px;border-radius:999px;background:#16a34a;font-size:11px;font-weight:700">+269%</div><div id="impact-kierrokset-detail" style="margin-top:8px;font-size:11px;color:rgba(255,255,255,.7)">413 UDisc + 60 Metrix</div></div><div class="impact-card"><div style="font-size:11px;font-weight:700;letter-spacing:1px;color:rgba(255,255,255,.6)">PELAAJIA</div><div style="margin-top:8px;display:flex;align-items:baseline;gap:8px"><span style="font-size:13px;color:rgba(255,255,255,.6);text-decoration:line-through">31</span><span style="font-size:13px;color:rgba(255,255,255,.6)">→</span><span id="impact-pelaajia" style="font-size:24px;font-weight:900">65</span></div><div style="margin-top:8px;display:inline-block;padding:2px 8px;border-radius:999px;background:#16a34a;font-size:11px;font-weight:700">+109%</div><div style="margin-top:8px;font-size:11px;color:rgba(255,255,255,.7)">eri pelaajaa 2025<br>31 vuonna 2024</div></div><div class="impact-card"><div style="font-size:11px;font-weight:700;letter-spacing:1px;color:rgba(255,255,255,.6)">VIIKKOKISAT</div><div style="margin-top:8px;display:flex;align-items:baseline;gap:8px"><span style="font-size:13px;color:rgba(255,255,255,.6);text-decoration:line-through">1</span><span style="font-size:13px;color:rgba(255,255,255,.6)">→</span><span style="font-size:24px;font-weight:900">3</span></div><div style="margin-top:8px;display:inline-block;padding:2px 8px;border-radius:999px;background:#3b82f6;font-size:11px;font-weight:700">+200%</div></div><div class="impact-card"><div style="font-size:11px;font-weight:700;letter-spacing:1px;color:rgba(255,255,255,.6)">PELIAIKA</div><div style="margin-top:8px;display:flex;align-items:baseline;gap:8px"><span style="font-size:13px;color:rgba(255,255,255,.6);text-decoration:line-through">160h</span><span style="font-size:13px;color:rgba(255,255,255,.6)">→</span><span id="impact-peliaika" style="font-size:24px;font-weight:900">589h</span></div><div style="margin-top:8px;display:inline-block;padding:2px 8px;border-radius:999px;background:#3b82f6;font-size:11px;font-weight:700">+268%</div><div style="margin-top:8px;font-size:11px;color:rgba(255,255,255,.7)">arvioitu peliaika<br><span style="color:#60a5fa;font-weight:700">24,5 vrk radalla</span></div></div></div></div>
+<div style="margin:24px 0;"><iframe src="Vaylat-VAIHE-4-FINAL.html" width="100%" height="620" style="border:none;border-radius:16px;display:block;background:#000;" loading="lazy" title="Väylä Data"></iframe></div>
+<div class="card" style="margin-top:16px"><div style="display:flex;justify-content:space-between"><b>Rataesittely video</b><span style="background:#ff0000;color:white;padding:2px 8px;border-radius:999px;font-size:11px">YouTube</span></div><div style="color:#64748b;font-size:12px;margin:6px 0">Katso Luoma-ahon frisbeegolfradan esittely — väylät, heittopaikat ja maisemat Alajärvellä.</div><a href="https://www.youtube.com/watch?v=ewQ-m-BU6SI" target="_blank" style="text-decoration:none"><div class="youtube"><img src="youtube-thumbnail.jpg" alt="LUOMA-AHO"><div class="play">▶</div></div></a><div style="font-size:11px;color:#64748b;margin-top:8px">youtube.com / Luoma-ahon Frisbeegolfrata • ID ewQ-m-BU6SI • Klikkaa avataksesi YouTubessa →</div></div>
+</div>
+<script>
+async function loadAll(){
+  try{
+    const res = await fetch('data.json?ts='+Date.now(), {cache:'no-store'});
+    if(!res.ok) throw new Error('no data.json');
+    const data = await res.json();
+    const c44010 = data.courses?.['44010']?.top_results || [];
+    const c44763 = data.courses?.['44763']?.top_results || [];
+    if(c44010.length){ document.getElementById('top5-44010').innerHTML = c44010.slice(0,5).map((r,i)=>`<tr ${i===0?'style="font-weight:900;color:#16a34a"':''}><td>${r.rank}. ${r.name}</td><td>${r.plus_minus} (${r.total})</td><td>${r.date||''}</td></tr>`).join(''); }
+    if(c44763.length){ document.getElementById('top5-44763').innerHTML = c44763.slice(0,5).map((r,i)=>`<tr ${i===0?'style="font-weight:900;color:#16a34a"':''}><td>${r.rank}. ${r.name}</td><td>${r.plus_minus} (${r.total})</td><td>${r.date||''}</td></tr>`).join(''); }
+    const total = data.static_verified?.total_rounds || 473;
+    const players = data.static_verified?.unique_players || 65;
+    // LIVE laskenta: jos hours puuttuu, laske kierroksista
+    let hours = data.static_verified?.hours;
+    if(!hours){
+      hours = Math.round(total * 1.25); // 1.25h = 12 väylää, vaihda 1.5 jos haluat 1,5h
+    }
+    const steps = data.static_verified?.steps || 1232306;
+    const stepsM = (steps/1000000).toFixed(1)+'M';
+    const km = Math.round(steps * 0.0008); // 0.8m per askel, disc golf maasto
+    const kmText = km >= 1000 ? (km/1000).toFixed(1)+'k km' : km+' km';
+    document.getElementById('live-total').textContent = total;
+    document.getElementById('live-players').textContent = players;
+    document.getElementById('live-hours').textContent = hours+'h';
+    document.getElementById('live-steps').textContent = stepsM;
+    const kmEl = document.getElementById('live-km');
+    if(kmEl) kmEl.textContent = kmText;
+    document.getElementById('impact-kierrokset').textContent = total;
+    document.getElementById('impact-kierrokset-detail').textContent = (data.static_verified?.udisc||413)+' UDisc + '+(data.static_verified?.metrix||60)+' Metrix';
+    document.getElementById('impact-pelaajia').textContent = players;
+    document.getElementById('impact-peliaika').textContent = hours+'h';
+    const lb = data.udisc_leaderboard || [];
+    
+    // HIO AUTO from data.json - scans for result=1
+    try{
+      const hio = data.hio || [];
+      if(hio.length){
+        const byHole={};
+        hio.forEach(h=>{
+          const key=`Väylä ${h.hole} "${h.hole_name}"`;
+          if(!byHole[key]) byHole[key]=[];
+          byHole[key].push(h.player + (h.date?` <span style="color:#64748b;font-size:11px">${h.date}</span>`:''));
+        });
+        let out='';
+        Object.keys(byHole).sort((a,b)=>{const na=parseInt(a.match(/Väylä (\d+)/)[1]); const nb=parseInt(b.match(/Väylä (\d+)/)[1]); return na-nb;}).forEach(k=>{
+          out+=`<b>${k}</b><br>`;
+          byHole[k].forEach((p,i)=>{ out+=`${i+1}. ${p}<br>`; });
+          out+='<br>';
+        });
+        const el=document.getElementById('hio-list');
+        if(el) el.innerHTML=out;
+        const footer=document.getElementById('hio-footer');
+        if(footer) footer.textContent=`L-A FRIBA • ${hio.length} holaria kirjattu • AUTO Metrix tulos=1 skannaus • päivitetty ${new Date().toLocaleDateString('fi-FI')}`;
+      }
+    }catch(e){ console.log('HIO load fail',e); }
+
+    if(lb.length){ document.getElementById('udisc-leaderboard').innerHTML = lb.slice(0,10).map(r=>`<tr><td>${r.rank}</td><td>${r.username}</td><td>${r.score}</td><td>${r.date||''}</td></tr>`).join(''); }
+  }catch(e){ console.log('auto load failed', e); }
+}
+loadAll(); setInterval(loadAll, 5*60*1000);
+
+async function loadSeuraavaKilpailu(){
+  try{
+    const res = await fetch('seuraava-kilpailu.json?ts='+Date.now(), {cache:'no-store'});
+    if(!res.ok) throw new Error('no json');
+    const txtRaw = await res.text();
+    if(!txtRaw || txtRaw.trim()==='' || txtRaw.trim()==='{}' || txtRaw.trim()==='[]') throw new Error('empty');
+    const data = JSON.parse(txtRaw);
+    const box = document.getElementById('seuraava-kilpailu-box');
+    const txt = document.getElementById('seuraava-kilpailu-text');
+    const liveBadge = document.getElementById('seuraava-kilpailu-live');
+    const isEmpty = !data || Object.keys(data).length===0 || (!data.linkki && !data.teksti && !data.otsikko) || data.aktiivinen===false;
+    if(isEmpty){
+      if(liveBadge){ liveBadge.textContent='Hold'; liveBadge.style.background='#dc2626'; liveBadge.style.color='white'; }
+      if(txt) txt.textContent='Ei tulevia kilpailuja';
+      if(box){ box.removeAttribute('href'); box.style.cursor='default'; box.style.opacity='0.9'; box.onclick=function(e){e.preventDefault();return false;}; }
+      return;
+    }
+    if(liveBadge){ liveBadge.textContent='LIVE'; liveBadge.style.background='#000'; liveBadge.style.color='#facc15'; }
+    if(box && data.linkki){ box.href=data.linkki; box.style.cursor='pointer'; box.style.opacity='1'; box.onclick=null; }
+    if(txt) txt.textContent=(data.teksti||data.otsikko||'Seuraava kilpailu')+' '+(data.nappi||'→');
+  }catch(e){
+    const box=document.getElementById('seuraava-kilpailu-box');
+    const txt=document.getElementById('seuraava-kilpailu-text');
+    const liveBadge=document.getElementById('seuraava-kilpailu-live');
+    if(liveBadge){ liveBadge.textContent='Hold'; liveBadge.style.background='#dc2626'; liveBadge.style.color='white'; }
+    if(txt) txt.textContent='Ei tulevia kilpailuja';
+    if(box){ box.removeAttribute('href'); box.style.cursor='default'; box.style.opacity='0.9'; box.onclick=function(ev){ev.preventDefault();return false;}; }
+  }
+}
+
+async function loadWeather(){
+  try{
+    const el=document.getElementById('saa-content');
+    if(!el) return;
+    const res=await fetch('https://api.open-meteo.com/v1/forecast?latitude=63.0&longitude=23.82&current=temperature_2m,wind_speed_10m,precipitation,weather_code,relative_humidity_2m,apparent_temperature&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=Europe/Helsinki&forecast_days=3',{cache:'no-store'});
+    if(!res.ok) throw new Error();
+    const data=await res.json();
+    const cur=data.current;
+    const daily=data.daily;
+    const map={0:'☀️ Selkeää',1:'🌤️ Melkein selkeää',2:'⛅ Puolipilvistä',3:'☁️ Pilvistä',45:'🌫️ Sumua',51:'🌦️ Tihkua',61:'🌧️ Sadetta',71:'❄️ Lunta',80:'🌦️ Kuuroja',95:'⛈️ Ukkosta'};
+    const desc=map[cur.weather_code]||'Sää';
+    el.innerHTML=`<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="background:rgba(255,255,255,.1);border-radius:8px;padding:8px"><div style="font-size:10px;opacity:.7">NYT</div><div style="font-size:20px;font-weight:900">${Math.round(cur.temperature_2m)}°C</div><div style="font-size:11px">${desc}</div><div style="font-size:10px;opacity:.7">Tuntuu ${Math.round(cur.apparent_temperature)}°C</div></div><div style="background:rgba(255,255,255,.1);border-radius:8px;padding:8px"><div style="font-size:10px;opacity:.7">TUULI / KOSTEUS</div><div style="font-size:13px;font-weight:700">💨 ${cur.wind_speed_10m} m/s</div><div style="font-size:11px">💧 ${cur.relative_humidity_2m}%</div><div style="font-size:11px">🌧️ ${cur.precipitation} mm</div></div></div><div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">${daily.time.slice(0,3).map((d,i)=>`<div style="background:rgba(255,255,255,.08);border-radius:6px;padding:4px 8px;font-size:10px"><b>${new Date(d).toLocaleDateString('fi-FI',{weekday:'short'})}</b> ${Math.round(daily.temperature_2m_min[i])}°/${Math.round(daily.temperature_2m_max[i])}° ${daily.precipitation_sum[i]}mm</div>`).join('')}</div><div style="margin-top:6px;font-size:10px;opacity:.6">Päivitetty ${new Date().toLocaleTimeString('fi-FI')} • Alajärvi Luoma-aho</div>`;
+  }catch(e){
+    const el=document.getElementById('saa-content');
+    if(el) el.innerHTML='<div style="font-size:11px">⚠️ Säätietoja ei saatu, <a href="https://www.foreca.fi/Finland/Alajarvi/Luoma-aho/details/20260920" target="_blank" style="color:#93c5fd">Foreca.fi</a></div>';
+  }
+}
+loadWeather();
+setInterval(loadWeather,5*60*1000);
+
+loadSeuraavaKilpailu();
+
+</script>
+</body>
+</html>
