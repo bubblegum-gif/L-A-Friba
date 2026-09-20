@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Väylä Data</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;color:#000;font-family:Inter,system-ui,sans-serif;padding:20px}
+.wrap{max-width:1280px;margin:0 auto;border:2px dashed rgba(255,255,255,.8);border-radius:12px;padding:20px;background:#000}
+.header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.title{color:#fff;font-weight:900;font-size:24px;letter-spacing:-0.5px}
+.badge-live{background:#0f3d0f;color:#00FF00;border:1px solid #00FF00;padding:4px 10px;border-radius:999px;font-size:11px;font-weight:800}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.pill{padding:4px 12px;border-radius:999px;font-size:11px;font-weight:800;text-transform:lowercase}
+.pill-helppo{background:#00FF00;color:#000}
+.pill-haastava{background:#FFEB00;color:#000}
+.pill-vaativa{background:#FF8B00;color:#000}
+.pill-vaikein{background:#FF0000;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+@media(max-width:1024px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:640px){.grid{grid-template-columns:repeat(2,1fr)}}
+.card{border-radius:10px;padding:8px;min-height:132px;position:relative;border:1px solid rgba(0,0,0,.2);box-shadow:0 1px 2px rgba(0,0,0,.1)}
+.dot{position:absolute;top:8px;right:8px;width:10px;height:10px;background:rgba(0,0,0,.1);border-radius:50%}
+.name{font-weight:900;font-size:13px;line-height:1.1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:30px}
+.par{font-size:11px;margin-top:4px;opacity:.9}
+.birdie-row{display:flex;justify-content:space-between;align-items:flex-end;margin-top:6px}
+.birdie-label{font-size:10px;font-weight:700}
+.birdie-pct{font-size:18px;font-weight:900}
+.badges{display:flex;gap:4px;margin-top:4px;flex-wrap:wrap}
+.badge{font-size:8px;background:rgba(255,255,255,.9);color:#000;padding:2px 6px;border-radius:4px;font-weight:600}
+.over{font-size:11px;font-weight:700;margin-top:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="header"><div class="title">VÄYLÄ DATA</div><div class="badge-live">AUTO LIVE</div></div>
+<div class="legend">
+<div class="pill pill-helppo">Helppo</div>
+<div class="pill pill-haastava">haastava</div>
+<div class="pill pill-vaativa">vaativa</div>
+<div class="pill pill-vaikein">vaikein</div>
+</div>
+<div class="grid">
+<div class="card" style="background:#FF8B00"><div class="dot"></div><div class="name">1 Russian Roulette</div><div class="par">Par 4 • 125m • 410ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">20%</span></div><div class="badges"><span class="badge">44010 4.67</span><span class="badge">44763 4.50</span></div><div class="over">+0.58 over</div></div>
+<div class="card" style="background:#00FF00"><div class="dot"></div><div class="name">2 Valonpolku</div><div class="par">Par 3 • 103m • 338ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">38%</span></div><div class="badges"><span class="badge">44010 3.77</span><span class="badge">44763 3.57</span></div><div class="over">+0.67 over</div></div>
+<div class="card" style="background:#FFEB00"><div class="dot"></div><div class="name">3 Kännän Kuiskaus</div><div class="par">Par 3 • 72m • 236ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">11%</span></div><div class="badges"><span class="badge">44010 3.57</span><span class="badge">44763 3.17</span></div><div class="over">+0.37 over</div></div>
+<div class="card" style="background:#FF0000;color:#000"><div class="dot"></div><div class="name">4 Julle Special</div><div class="par">Par 3 • 58m • 189ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">23%</span></div><div class="badges"><span class="badge">44010 3.27</span><span class="badge">44763 3.37</span></div><div class="over">+0.32 over</div></div>
+<div class="card" style="background:#00FF00"><div class="dot"></div><div class="name">5 Nice & Tight</div><div class="par">Par 3 • 94m • 308ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">51%</span></div><div class="badges"><span class="badge">44010 3.60</span><span class="badge">44763 3.37</span></div><div class="over">+0.48 over</div></div>
+<div class="card" style="background:#FF0000;color:#000"><div class="dot"></div><div class="name">6 Tiikerin loikka</div><div class="par">Par 3 • 96m • 315ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">30%</span></div><div class="badges"><span class="badge">44010 4.23</span><span class="badge">44763 4.03</span></div><div class="over">+1.13 over</div></div>
+<div class="card" style="background:#FFEB00"><div class="dot"></div><div class="name">7 Haukansilmä</div><div class="par">Par 3 • 102m • 336ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">36%</span></div><div class="badges"><span class="badge">44010 4.17</span><span class="badge">44763 3.60</span></div><div class="over">+0.88 over</div></div>
+<div class="card" style="background:#FFEB00"><div class="dot"></div><div class="name">8 Kepposen Kirous</div><div class="par">Par 3 • 80m • 264ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">14%</span></div><div class="badges"><span class="badge">44010 3.50</span><span class="badge">44763 2.97</span></div><div class="over">+0.23 over</div></div>
+<div class="card" style="background:#FF8B00"><div class="dot"></div><div class="name">9 Helvetin nousu</div><div class="par">Par 4 • 116m • 381ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">22%</span></div><div class="badges"><span class="badge">44010 5.03</span><span class="badge">44763 4.20</span></div><div class="over">+0.62 over</div></div>
+<div class="card" style="background:#FF8B00"><div class="dot"></div><div class="name">10 Drop Zone</div><div class="par">Par 3 • 85m • 279ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">39%</span></div><div class="badges"><span class="badge">44010 4.23</span><span class="badge">44763 3.97</span></div><div class="over">+1.10 over</div></div>
+<div class="card" style="background:#FF0000;color:#000"><div class="dot"></div><div class="name">11 Monsteri</div><div class="par">Par 5 • 197m • 646ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">12%</span></div><div class="badges"><span class="badge">44010 6.53</span><span class="badge">44763 5.93</span></div><div class="over">+1.23 over</div></div>
+<div class="card" style="background:#00FF00"><div class="dot"></div><div class="name">12 Mossen mutka</div><div class="par">Par 4 • 120m • 394ft</div><div class="birdie-row"><span class="birdie-label">BIRDIE%</span><span class="birdie-pct">25%</span></div><div class="badges"><span class="badge">44010 4.30</span><span class="badge">44763 4.13</span></div><div class="over">+0.22 over</div></div>
+</div>
+</div>
+</body>
+</html>
