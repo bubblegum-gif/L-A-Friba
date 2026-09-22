@@ -1,0 +1,1 @@
+FINAL 100% layout + dynaaminen Foreca kompakti
