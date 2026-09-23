@@ -17,7 +17,7 @@ def main():
     except: old={"metrix_44010":582,"metrix_44763":62,"metrix_43119":80}
     c44010=fetch_metrix('44010') or old.get('metrix_44010',586)
     c44763=fetch_metrix('44763') or old.get('metrix_44763',62)
-    total=c44010+c44763+c43119+416
+    total=c44010+c44763
     data={
         "tulos_kirjatut_ja_kierrosten_maara": total,
         "eri_pelaajia": old.get('eri_pelaajia',233),
@@ -26,7 +26,6 @@ def main():
         "kilometri": "2 650 km",
         "metrix_44010": c44010,
         "metrix_44763": c44763,
-        "metrix_43119": c43119,
         "udisc": 416,
         "paivitetty": datetime.now(timezone.utc).isoformat(),
         "lahde": "GitHub Actions 5min server-side - ei CORS - kaikki kortit auto-update"
