@@ -1,0 +1,67 @@
+{
+  "korkeus": "76px desktop / 92px mobile",
+  "napit": [
+    {
+      "nimi": "Google Maps",
+      "koko": "90x38",
+      "tyyppi": "white pill rounded-full",
+      "url": "https://www.google.com/maps/search/Luoma-ahon+Frisbeegolfrata"
+    },
+    {
+      "nimi": "Parkdly",
+      "koko": "115x38",
+      "tyyppi": "transparent border",
+      "url": "https://parkdly.com"
+    },
+    {
+      "nimi": "Rata-kuvat",
+      "koko": "75x45",
+      "tyyppi": "kuva rounded 7px",
+      "url": "https://photos.google.com/share/AF1QipMlPCtWvfCrBkzBR-Sr-W7AG-f8ZBVQ0omErEqR-ZXVPqF-2uRionKk12oTV4R_Lw"
+    },
+    {
+      "nimi": "Löytökiekot",
+      "koko": "85x38",
+      "tyyppi": "kuva",
+      "url": "https://www.loytokiekot.fi/"
+    },
+    {
+      "nimi": "YouTube",
+      "koko": "85x38",
+      "tyyppi": "white pill",
+      "url": "https://youtube.com"
+    },
+    {
+      "nimi": "Instagram",
+      "koko": "38x38",
+      "tyyppi": "gradient rounded-full",
+      "url": "https://www.instagram.com/luomaahofrisbeegolf/"
+    },
+    {
+      "nimi": "Frisbeegolfradat.fi",
+      "koko": "38x38",
+      "tyyppi": "white",
+      "url": "https://frisbeegolfradat.fi/rata/luoma-ahon-frisbeegolfrata/"
+    },
+    {
+      "nimi": "UDisc",
+      "koko": "110x38",
+      "tyyppi": "white pill",
+      "url": "https://udisc.com/courses/luoma-ahon-frisbeegolfrata-YNEx"
+    },
+    {
+      "nimi": "Metrix",
+      "koko": "100x38",
+      "tyyppi": "transparent oranssi logo only, rounded-full 9999px, background transparent",
+      "url": "https://discgolfmetrix.com/course/44010",
+      "korjaus": "valkoinen pohja poistettu kirurgisesti"
+    }
+  ],
+  "poistettu": [
+    {
+      "nimi": "Tähti 4.7",
+      "syy": "ei toiminut oikein, poistettu kirurgisesti display none"
+    }
+  ],
+  "otsikko": "Luoma-ahon Frisbeegolfrata - Alajärvi - est. 2025"
+}

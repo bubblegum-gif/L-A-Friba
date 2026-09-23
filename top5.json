@@ -1,0 +1,65 @@
+{
+  "vaylapaste_top6_par_rating": {
+    "course": "Metrix 44010",
+    "par_rating": 990,
+    "top": [
+      {
+        "nimi": "Mikko K.",
+        "layout": "Main 12",
+        "rating": 999
+      },
+      {
+        "nimi": "Janne L.",
+        "layout": "Main 12",
+        "rating": 978
+      },
+      {
+        "nimi": "Sami H.",
+        "layout": "Main 12",
+        "rating": 965
+      },
+      {
+        "nimi": "Ville P.",
+        "layout": "Main 12",
+        "rating": 951
+      },
+      {
+        "nimi": "Eero S.",
+        "layout": "Main 12",
+        "rating": 944
+      }
+    ]
+  },
+  "vaylapaste_2_kierrosta_top": {
+    "course": "Metrix 44010 x2",
+    "par_rating": 972,
+    "top": [
+      {
+        "nimi": "Mikko K.",
+        "layout": "2 kierrosta",
+        "rating": 972
+      },
+      {
+        "nimi": "Janne L.",
+        "layout": "2 kierrosta",
+        "rating": 959
+      },
+      {
+        "nimi": "Teemu R.",
+        "layout": "2 kierrosta",
+        "rating": 948
+      },
+      {
+        "nimi": "Antti J.",
+        "layout": "2 kierrosta",
+        "rating": 935
+      },
+      {
+        "nimi": "Lauri V.",
+        "layout": "2 kierrosta",
+        "rating": 921
+      }
+    ]
+  },
+  "huom": "Par rating alarivillä kuten OIKEA 119afd2b505f"
+}
