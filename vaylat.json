@@ -2,7 +2,7 @@
   "par_yhteensa": 46,
   "vaylat": [
     {
-      "vayla": 1,
+      "vayla": 1 125m,
       "par": 4,
       "avg_yhdist": 4.51,
       "huom_overPar": 0.51,
@@ -13,7 +13,7 @@
       "bogey_%": 40
     },
     {
-      "vayla": 2,
+      "vayla": 2 103m,
       "par": 3,
       "avg_yhdist": 3.79,
       "huom_overPar": 0.79,
@@ -24,7 +24,7 @@
       "bogey_%": 48
     },
     {
-      "vayla": 3,
+      "vayla": 3 52m,
       "par": 3,
       "avg_yhdist": 3.53,
       "huom_overPar": 0.53,
@@ -35,7 +35,7 @@
       "bogey_%": 36
     },
     {
-      "vayla": 4,
+      "vayla": 4 57m,
       "par": 3,
       "avg_yhdist": 3.4,
       "huom_overPar": 0.4,
@@ -46,7 +46,7 @@
       "bogey_%": 31
     },
     {
-      "vayla": 5,
+      "vayla": 5 94m,
       "par": 3,
       "avg_yhdist": 3.56,
       "huom_overPar": 0.56,
@@ -57,7 +57,7 @@
       "bogey_%": 39
     },
     {
-      "vayla": 6,
+      "vayla": 6 96m,
       "par": 4,
       "avg_yhdist": 4.16,
       "huom_overPar": 0.16,
@@ -68,7 +68,7 @@
       "bogey_%": 46
     },
     {
-      "vayla": 7,
+      "vayla": 7 103m,
       "par": 4,
       "avg_yhdist": 4.04,
       "huom_overPar": 0.04,
@@ -79,7 +79,7 @@
       "bogey_%": 42
     },
     {
-      "vayla": 8,
+      "vayla": 8 80m,
       "par": 3,
       "avg_yhdist": 3.47,
       "huom_overPar": 0.47,
@@ -90,7 +90,7 @@
       "bogey_%": 35
     },
     {
-      "vayla": 9,
+      "vayla": 9 116m,
       "par": 5,
       "avg_yhdist": 4.81,
       "huom_overPar": -0.19,
@@ -101,7 +101,7 @@
       "bogey_%": 43
     },
     {
-      "vayla": 10,
+      "vayla": 10 85m,
       "par": 4,
       "avg_yhdist": 4.08,
       "huom_overPar": 0.08,
@@ -112,7 +112,7 @@
       "bogey_%": 50
     },
     {
-      "vayla": 11,
+      "vayla": 11 197m,
       "par": 6,
       "avg_yhdist": 6.23,
       "huom_overPar": 0.23,
@@ -123,7 +123,7 @@
       "bogey_%": 56
     },
     {
-      "vayla": 12,
+      "vayla": 12 120m,
       "par": 4,
       "avg_yhdist": 4.28,
       "huom_overPar": 0.28,
