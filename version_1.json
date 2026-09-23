@@ -20,7 +20,7 @@
   "paivitys": "2026-09-22 mobiili yhteensopivuus",
   "mobiili_fix": [
     "Header 9 nappia -> rullattava rivi mobiilissa (overflow-x auto)",
-    "TILAS TOT 5 korttia -> 2 kolumnia mobiilissa, kaikki näkyy",
+    "TILASTOT 5 korttia -> 2 kolumnia mobiilissa, kaikki näkyy",
     "RATA & TULOKSET 5 korttia -> pystypino mobiilissa, kaikki näkyy (ei piilotettu)",
     "VÄYLÄTILASTO taulukko -> vaakascroll mobiilissa",
     "Korttien korkeus auto mobiilissa, min-height 280px",
