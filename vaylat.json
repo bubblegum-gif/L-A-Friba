@@ -2,7 +2,8 @@
   "par_yhteensa": 46,
   "vaylat": [
     {
-      "vayla": 1 125m,
+      "vayla": 1,
+      "Pituus": 125,
       "par": 4,
       "avg_yhdist": 4.51,
       "huom_overPar": 0.51,
@@ -13,7 +14,8 @@
       "bogey_%": 40
     },
     {
-      "vayla": 2 103m,
+      "vayla": 2,
+      "Pituus": 103,
       "par": 3,
       "avg_yhdist": 3.79,
       "huom_overPar": 0.79,
@@ -24,7 +26,8 @@
       "bogey_%": 48
     },
     {
-      "vayla": 3 52m,
+      "vayla": 3,
+      "Pituus": 52,
       "par": 3,
       "avg_yhdist": 3.53,
       "huom_overPar": 0.53,
@@ -35,7 +38,8 @@
       "bogey_%": 36
     },
     {
-      "vayla": 4 57m,
+      "vayla": 4,
+      "Pituus": 80,
       "par": 3,
       "avg_yhdist": 3.4,
       "huom_overPar": 0.4,
@@ -46,7 +50,8 @@
       "bogey_%": 31
     },
     {
-      "vayla": 5 94m,
+      "vayla": 5,
+      "Pituus": 94,
       "par": 3,
       "avg_yhdist": 3.56,
       "huom_overPar": 0.56,
@@ -57,7 +62,8 @@
       "bogey_%": 39
     },
     {
-      "vayla": 6 96m,
+      "vayla": 6,
+      "Pituus": 96,
       "par": 4,
       "avg_yhdist": 4.16,
       "huom_overPar": 0.16,
@@ -68,7 +74,8 @@
       "bogey_%": 46
     },
     {
-      "vayla": 7 103m,
+      "vayla": 7,
+      "Pituus": 103,
       "par": 4,
       "avg_yhdist": 4.04,
       "huom_overPar": 0.04,
@@ -79,7 +86,8 @@
       "bogey_%": 42
     },
     {
-      "vayla": 8 80m,
+      "vayla": 8,
+      "Pituus": 80,
       "par": 3,
       "avg_yhdist": 3.47,
       "huom_overPar": 0.47,
@@ -90,7 +98,8 @@
       "bogey_%": 35
     },
     {
-      "vayla": 9 116m,
+      "vayla": 9,
+      "Pituus": 116,
       "par": 5,
       "avg_yhdist": 4.81,
       "huom_overPar": -0.19,
@@ -101,7 +110,8 @@
       "bogey_%": 43
     },
     {
-      "vayla": 10 85m,
+      "vayla": 10,
+      "Pituus": 85,
       "par": 4,
       "avg_yhdist": 4.08,
       "huom_overPar": 0.08,
@@ -112,7 +122,8 @@
       "bogey_%": 50
     },
     {
-      "vayla": 11 197m,
+      "vayla": 11,
+      "Pituus": 197,
       "par": 6,
       "avg_yhdist": 6.23,
       "huom_overPar": 0.23,
@@ -123,7 +134,8 @@
       "bogey_%": 56
     },
     {
-      "vayla": 12 120m,
+      "vayla": 12,
+      "Pituus": 120,
       "par": 4,
       "avg_yhdist": 4.28,
       "huom_overPar": 0.28,
