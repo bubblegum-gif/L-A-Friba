@@ -17,7 +17,6 @@ def main():
     except: old={"metrix_44010":582,"metrix_44763":62,"metrix_43119":80}
     c44010=fetch_metrix('44010') or old.get('metrix_44010',586)
     c44763=fetch_metrix('44763') or old.get('metrix_44763',62)
-    c43119=fetch_metrix('43119') or old.get('metrix_43119',80)
     total=c44010+c44763+c43119+416
     data={
         "tulos_kirjatut_ja_kierrosten_maara": total,
