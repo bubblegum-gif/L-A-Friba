@@ -1,0 +1,18 @@
+{
+  "versio": "7.1",
+  "pohja": "v7.0 FIRST PAINT LATEST",
+  "pvm": "2026-09-25",
+  "ominaisuudet": [
+    "FIRST PAINT LATEST embedded",
+    "saa.json LIVE Open-Meteo",
+    "udisc_top5 LIVE scrape"
+  ],
+  "data": {
+    "tulos_kirjatut": 1144,
+    "laskenta": "586+62+80+416=1144",
+    "pituus_total": 1248,
+    "saa_temp": 14
+  },
+  "status": "v7.1 LIVE OK",
+  "ajettu": "2026-09-25T14:45:47.620727+00:00"
+}
