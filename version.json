@@ -1,0 +1,13 @@
+{
+  "versio": "5.1",
+  "pohja": "v4.0 index.html - layout koskematon (Sääntö 1-2)",
+  "pvm": "2026-09-25",
+  "muutos": "Dynaaminen haku Metrix 44010/44763/43119 + UDisc layout 143835",
+  "data": {
+    "tulos_kirjatut": 1144,
+    "laskenta": "586+62+80+416=1144",
+    "pituus_total": 1248
+  },
+  "status": "DYNAAMINEN v5.1 OK",
+  "ajettu": "2026-09-25T14:33:37.783314+00:00"
+}

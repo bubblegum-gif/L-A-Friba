@@ -1,0 +1,24 @@
+{
+  "tulos_kirjatut_ja_kierrosten_maara": 1144,
+  "metrix_44010": 586,
+  "metrix_44763": 62,
+  "metrix_43119": 80,
+  "udisc": 416,
+  "laskenta": "586+62+80+416=1144",
+  "paivitetty": "2026-09-25",
+  "lahde": "v6.0 FINAL dynaaminen - Metrix 44010/44763/43119 + UDisc 143835 - 1248m validoitu",
+  "urls": {
+    "44010": "https://discgolfmetrix.com/course/44010",
+    "44763": "https://discgolfmetrix.com/course/44763",
+    "43119": "https://discgolfmetrix.com/course/43119",
+    "udisc": "https://udisc.com/courses/luoma-ahon-frisbeegolfrata-YNEx"
+  },
+  "validointi": {
+    "summa_tasmaa": true,
+    "truthful_pohja": 1144,
+    "poikkeama": 0,
+    "dynaaminen": true
+  },
+  "versio": "6.0 FINAL",
+  "saannot": "Sääntö 1: layout ei muutettu, Sääntö 2: lupa kysytty, Sääntö 3: vain uusimpaan, Sääntö 4: hyväksyntä ennen"
+}
