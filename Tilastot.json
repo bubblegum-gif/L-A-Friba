@@ -1,0 +1,28 @@
+{
+  "tulos_kirjatut_ja_kierrosten_maara": 1144,
+  "tulos_kirjatut_ja_kierrosten_maara_vanha_vaara": 1140,
+  "korjaus": "1140->1144 truthful 586+62+80+416",
+  "metrix_44010": 586,
+  "metrix_44763": 62,
+  "metrix_43119": 80,
+  "udisc": 416,
+  "laskenta": "586+62+80+416=1144",
+  "eri_pelaajia": 259,
+  "eri_pelaajia_laskenta": "uniikit nimet Metrix+UDisc = 259",
+  "metrix_details": {
+    "44010": {
+      "count": 586,
+      "unique_players": 117
+    },
+    "44763": {
+      "count": 62,
+      "unique_players": 47
+    },
+    "43119": {
+      "count": 80,
+      "unique_players": 30
+    }
+  },
+  "paivitetty": "2026-09-25T15:09:36.380656+00:00",
+  "lahde": "v8.0 OPTIMIZED - korjattu 1140->1144 + TOP10 + pienempi HTML"
+}
